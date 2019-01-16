@@ -1,0 +1,263 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<!-- Start Initializing the Droplet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title> DVR Scheduler</title>
+        <meta http-equiv="expires" content="-1"/>
+        <meta http-equiv="Cache-Control" content="no-cache"/>
+        <link rel="apple-touch-icon"
+            href="http://cdn.directv.com/images/common/icons/apple-touch-icon.png" type="image/png"/>
+        <style type="text/css"><![CDATA[
+.emphasis {
+font-size: 13pt;
+font-family: "arial"; 
+font-weight: bold;
+}
+.redemphasis {
+font-size: 13pt;
+font-family: "arial";
+color: #F00000;
+font-weight: bold;
+}
+.grayemphasis {
+font-size: 13pt;
+font-family: "arial"; 
+color: #6A6A6A;
+font-weight: bold;
+}
+.blueemphasis {
+font-size: 13pt;
+font-family: "arial"; 
+color: #0771D0;
+font-weight: bold;
+}
+.normal {
+font-size: 13pt;
+font-family: "arial"; 
+}
+.graynormal {
+font-size: 13pt;
+font-family: "arial"; 
+color: #6A6A6A;	
+}
+.bluenormal {
+font-size: 13pt;
+font-family: "arial"; 
+color: #0771D0;	
+}
+.smallnote {
+font-family: "arial"; 
+font-size: 10pt;
+}
+.actionbutton {
+text-align:left;
+padding:0;
+margin:0;
+border:none;
+background:none;	
+}
+span.actionbutton {
+text-align:left;
+padding:0;
+margin:0;
+border:0;
+background:none;
+width:175px;
+}
+.menubutton {
+text-align: left;	
+}
+.actionstdbutton {
+text-align: left;	
+background-color: #DFDFDF;
+border: 1px solid #666666;
+margin: 1px 1px;	
+font-family: "arial";
+font-weight: normal;
+font-size: 13pt;	
+}
+.actionstdbutton2 {
+text-align: left;	
+background-color: #DFDFDF;
+border: 1px solid #666666;
+margin: 1px 1px;	
+font-family: "arial";
+font-weight: normal;
+font-size: 13pt;	
+width: 140px;
+}
+.actionstdbutton3 {
+text-align: left;	
+background-color: #DFDFDF;
+border: 1px solid #666666;
+margin: 1px 1px;
+font-family: "arial";
+font-weight: normal;
+font-size: 13pt;	
+width: 180px;
+}
+.footerlinks {
+color: #0771D0;
+font-family: "arial";
+font-size: 9pt;	
+} 
+a.footerlinks:link {
+color: #0771D0;
+font-family: "arial";
+font-size: 9pt;	
+} 
+a.footerlinks:visited {
+color: #0771D0;
+font-family: "arial"; 
+font-size: 9pt;	
+} 
+a.blueemphasis:link {
+font-size: 13pt;
+font-family: "arial"; 
+color: #0771D0;
+font-weight: bold;	
+} 
+a.blueemphasis:visited {
+font-size: 13pt;
+font-family: "arial"; 
+color: #0771D0;
+font-weight: bold; 
+} 
+a.bluenormal:link {
+font-size: 13pt;
+font-family: "arial"; 
+color: #0771D0;	
+} 
+a.bluenormal:visited {
+font-size: 13pt;
+font-family: "arial"; 
+color: #0771D0;	
+} 
+a:hover {
+color: #0771D0;	
+background-color: #E4E4DF;	
+}
+a:active {
+color: #0771D0;	
+background-color: #E4E4DF;	
+}
+.numinputchan {
+-wap-input-format: "6n";
+}
+.numinputtime {
+-wap-input-format: "2N";
+} 
+]]></style>
+    </head>
+    <!-- DBUG
+        SNAME:D4DTPW17A
+        PID:JHCOLSON
+        LID:944533613-->
+    <body>
+        <img src="http://cdn.directv.com/images/mobile/top_220.gif" alt="DIRECTV Online Scheduler"/>
+        <br/>
+        <span class="emphasis"> Nip/Tuck </span>
+        <br/>
+        <span class="normal">Ch. 248, FX, TVMA</span>
+        <br/>
+        <span class="normal"> 1/11, 2:08a - 2:12a </span>
+        <br/>
+        <br/>
+        <form
+            action="/DTVAPP/mobile/secured/titleInfo.jsp?_DARGS=/DTVAPP/mobile/secured/component/titleInfoBody.jsp.selectProgramForm1"
+            class="selectProgramForm" name="selectProgramForm1" method="post"
+            id="selectProgramForm1">
+            <div>
+                <input value="ISO-8859-1" type="hidden" name="_dyncharset"/>
+            </div>
+            <div>
+                <input value="3975954480653003519" type="hidden" name="_dynSessConf"/>
+            </div>
+            <input value="/mobile/secured/chooseDVRRemoteRecord.jsp?lqr=f" type="hidden"
+                name="/directv/formhandler/MobileRemoteRecordFormHandler.selectReceiverUrl"/>
+            <input value=" " type="hidden"
+                name="_D:/directv/formhandler/MobileRemoteRecordFormHandler.selectReceiverUrl"/>
+            <input value="/mobile/secured/chooseDVRRemoteSeriesRecord.jsp?lqr=f" type="hidden"
+                name="/directv/formhandler/MobileRemoteRecordFormHandler.selectSeriesCapableReceiverUrl"/>
+            <input value=" " type="hidden"
+                name="_D:/directv/formhandler/MobileRemoteRecordFormHandler.selectSeriesCapableReceiverUrl"/>
+            <input value="/mobile/secured/titleInfo.jsp?pId=291349118" type="hidden"
+                name="/directv/formhandler/MobileRemoteRecordFormHandler.errorUrl"/>
+            <input value=" " type="hidden"
+                name="_D:/directv/formhandler/MobileRemoteRecordFormHandler.errorUrl"/>
+            <input value="291349118" type="hidden"
+                name="/directv/formhandler/MobileRemoteRecordFormHandler.remoteBookingForm.scheduleId"/>
+            <input value=" " type="hidden"
+                name="_D:/directv/formhandler/MobileRemoteRecordFormHandler.remoteBookingForm.scheduleId"/>
+            <div>
+                <input value="Schedule Recording" type="image" class="actionbutton"
+                    src="http://cdn.directv.com/images/mobile/recordOnce_220.gif"
+                    name="selectProgram"/>
+                <input value=" " type="hidden" name="_D:selectProgram"/>
+            </div>
+            <div>
+                <input value="Schedule Series Recording" type="image" class="actionbutton"
+                    src="http://cdn.directv.com/images/mobile/recordSeries_220.gif"
+                    name="selectProgramSeries"/>
+                <input value=" " type="hidden" name="_D:selectProgramSeries"/>
+            </div>
+            <div>
+                <input value="/DTVAPP/mobile/secured/component/titleInfoBody.jsp.selectProgramForm1"
+                    type="hidden" name="_DARGS"/>
+            </div>
+        </form>
+        <form
+            action="/DTVAPP/mobile/secured/titleInfo.jsp?_DARGS=/DTVAPP/mobile/secured/component/titleInfoBody.jsp.selectProgramForm3"
+            class="selectProgramForm" name="selectProgramForm3" method="post"
+            id="selectProgramForm3">
+            <div>
+                <input value="ISO-8859-1" type="hidden" name="_dyncharset"/>
+            </div>
+            <div>
+                <input value="3975954480653003519" type="hidden" name="_dynSessConf"/>
+            </div>
+            <input value="291349118" type="hidden"
+                name="/directv/formhandler/MobileSearchFormHandler.mobileSearchForm.programId"/>
+            <input value=" " type="hidden"
+                name="_D:/directv/formhandler/MobileSearchFormHandler.mobileSearchForm.programId"/>
+            <div>
+                <input value="More Showtimes" type="image" class="actionbutton"
+                    src="http://cdn.directv.com/images/mobile/moreShowtimes_220.gif"
+                    name="viewRelated"/>
+                <input value=" " type="hidden" name="_D:viewRelated"/>
+            </div>
+            <div>
+                <input value="/DTVAPP/mobile/secured/component/titleInfoBody.jsp.selectProgramForm3"
+                    type="hidden" name="_DARGS"/>
+            </div>
+        </form>
+        <span class="normal">Sean's physical and emotional well-being are impacted after surviving
+            the attack from Colleen (Sharon Gless); Christian gets troubling news.</span>
+        <br/>
+        <hr/>
+        <p>
+            <a href="/DTVAPP/mobile/secured/searchMain.jsp">
+                <span class="footerlinks">New Search</span>
+            </a>
+            <br/>
+            <a href="/DTVAPP/mobile/secured/main.jsp">
+                <span class="footerlinks">Home</span>
+            </a>
+            <br/>
+            <a href="/DTVAPP/mobile/secured/quickRecord.jsp?lqr=t">
+                <span class="footerlinks">Manual Record</span>
+            </a>
+            <br/>
+            <a
+                href="/DTVAPP/mobile/help.jsp?_DARGS=/DTVAPP/mobile/component/footerLinksSearchResults.jsp_A&amp;_DAV=/mobile/secured/titleInfo.jsp&amp;_dynSessConf=3975954480653003519">
+                <span class="footerlinks">Help</span>
+            </a>
+            <br/>
+            <a
+                href="/DTVAPP/mobile/signout.jsp?clear=true&amp;_DARGS=/DTVAPP/mobile/component/footerLinksSearchResults.jsp.1_A&amp;_DAV=/DTVAPP/mobile/signout.jsp%3Fclear%3Dtrue&amp;_dynSessConf=3975954480653003519">
+                <span class="footerlinks">Sign Out</span>
+            </a>
+        </p>
+    </body>
+</html>
